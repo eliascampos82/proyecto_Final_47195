@@ -1,0 +1,92 @@
+.marca{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    margin-bottom: 25px;
+}
+.marca img{
+    position: relative;
+    left: 30%;
+    width: 60%; 
+    height: 60%;
+    bottom: 20%;
+    top: -10px;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+.marca_texto{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 2;
+}
+
+.airmax {
+   
+    font-size: 5rem;
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    color: rgb(5, 240, 5);
+    left: -20px;
+}
+.super{
+    position: relative;
+    left: -7px;
+    bottom: -1px;
+    color: red;
+    font-style: italic;
+    font-size: 3rem;
+    z-index: 4;
+}
+
+  @media (min-width: 320px) {
+  .airmax {
+    color: blueviolet;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 2em;
+    display: flex;
+  }
+  .super {
+    font-size: 1rem;
+    position: absolute;
+    color: red;
+    display: flex;
+    z-index: 2;
+    font-style: italic;
+    margin-bottom: -10px;
+    margin-left: 20px;
+    width: 20%;
+  } 
+}
+  
+@media (min-width: 767px) {
+  .airmax {
+    color: blueviolet;
+    margin-top: -30px;
+    margin-left: -30px;
+    font-size: 5em;
+    display: flex;
+  }
+  .super {
+    font-size: 3rem;
+    position: absolute;
+    color: red;
+    display: flex;
+    z-index: 2;
+    font-style: italic;
+    margin-bottom: -60px;
+    margin-left: 10px;
+    width: 20%;
+  }
+  .imagen {
+    position: relative;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: -20px;
+    z-index: 0;
+  }
+}  
